@@ -4,19 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".activities.ValorConta"
-    tools:showIn="@layout/activity_valorconta">
+    tools:context=".activities.Tela3">
 
     <TextView
-        android:id="@+id/txtxTitulo"
+        android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:text="@string/txtTitulo"
-
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,10 +23,13 @@
         android:id="@+id/txtValor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:textColor="@color/colorAccent"
+        android:layout_marginEnd="8dp"
         android:text="@string/txtValor"
-        app:layout_constraintEnd_toEndOf="@+id/txtxTitulo"
-        app:layout_constraintStart_toStartOf="@+id/txtxTitulo"
-        app:layout_constraintTop_toBottomOf="@+id/txtxTitulo" />
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
 </android.support.constraint.ConstraintLayout>

@@ -23,10 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.OrderActivity" />
-        <activity
-            android:name=".activities.ValorConta"
-            android:label="@string/title_activity_valorconta"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activities.Tela3"></activity>
     </application>
 
 </manifest>

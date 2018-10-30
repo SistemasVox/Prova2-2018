@@ -1,15 +1,13 @@
 package professorangoti.com.interaocomousuario;
 
-import java.util.ArrayList;
-
-public class Produto extends ArrayList<Produto> {
+public class Produto {
     private String produto;
-    private String valor;
+    private double valor;
 
     public Produto() {
     }
 
-    public Produto(String produto, String valor) {
+    public Produto(String produto, double valor) {
         this.produto = produto;
         this.valor = valor;
     }
@@ -22,11 +20,11 @@ public class Produto extends ArrayList<Produto> {
         this.produto = produto;
     }
 
-    public String getValor() {
+    public double getValor() {
         return valor;
     }
 
-    public void setValor(String valor) {
+    public void setValor(double valor) {
         this.valor = valor;
     }
 }
